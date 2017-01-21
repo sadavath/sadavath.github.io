@@ -1,0 +1,21 @@
+# Site settings
+title: Sadavath Sharma's Online Portfolio
+header-img: img/home-bg.png
+email: sadavath@utexas.edu
+copyright_name: sadavath
+description: > # this means to ignore newlines until "baseurl:"
+  Technology. Data. Design
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: SadavathSharma
+github_username:  sadavath
+learn_profile: sadavath
+email_username: sadavath@utexas.edu
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
